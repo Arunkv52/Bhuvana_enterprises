@@ -5155,3 +5155,44 @@ div#row-straight {
 .container.pt-item {
   padding: 3% 0 0 0;
 }
+
+/* Swiper js */
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.swipe-tc {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  padding: 100px;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+/* Extra my style */
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 30px;
+  color: #ffffff;
+  background-color: red;
+  padding: 18px;
+}
+
+.swipe-tc P {
+  font-size: 17px;
+  color: #ffffff;
+}
