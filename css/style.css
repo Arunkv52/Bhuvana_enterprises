@@ -5206,3 +5206,7 @@ div#rem-li ul li {
   list-style-type: circle;
   padding: 2px;
 }
+.con-row-item.con-pad h5 {
+  font-size: 17px;
+  font-weight: 600;
+}
