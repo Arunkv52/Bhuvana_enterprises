@@ -5199,5 +5199,10 @@ swiper-slide img {
 
 /* new file will add th */
 
-
-/* Hello how are you */
+div#rem-li ul li {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  list-style-type: circle;
+  padding: 2px;
+}
