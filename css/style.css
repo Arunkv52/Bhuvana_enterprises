@@ -1989,7 +1989,7 @@ footer .topFooter {
 
 footer .topFooter .line1,
 footer .topFooter .line2 {
-  padding: 45px 0;
+  padding: 43px 0 0 0;
 }
 
 footer .topFooter .line1 {
@@ -5209,4 +5209,8 @@ div#rem-li ul li {
 .con-row-item.con-pad h5 {
   font-size: 17px;
   font-weight: 600;
+}
+img#img--btn {
+  width: 100%;
+  height: auto;
 }

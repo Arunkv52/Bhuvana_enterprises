@@ -296,6 +296,7 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
     border-left: 0;
     margin-top: 10px;
   }
+
   div#row-straight {
     display: block;
     justify-content: flex-start;
@@ -323,6 +324,7 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
   #header .navbar #mainNav .nav li.open.megaMenu .dropdown-menu li.boxMenu .megaInnerMenu li+li {
     margin-left: auto;
   }
+
   div#row-straight {
     display: block;
     justify-content: flex-start;
@@ -545,6 +547,15 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
     display: inline-block;
   }
 
+  header .navbar #mainNav .nav {
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+  }
+
   #homeBanners .homeBanner {
     width: 300px;
     margin: 0 auto;
@@ -598,8 +609,11 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
 
   div#row-straight {
     display: block;
-    justify-content: flex-start;
-    align-items: end;
+    padding: 20px 90px;
+  }
+
+  #header .navbar #mainNav .nav {
+    display: block;
   }
 }
 
@@ -865,6 +879,15 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
     padding-top: calc(50% - 120px);
   }
 
+  header .navbar #mainNav .nav {
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 19px !important;
+  }
+
   .featureCats .item .imgHov .hovArea h4 {
     line-height: 40px;
   }
@@ -901,6 +924,15 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
   #featureCat2 .col-sm-3 {
     width: 285px;
     margin: 0 auto 20px;
+  }
+
+  header .navbar #mainNav .nav {
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 19px;
   }
 }
 
@@ -1157,11 +1189,11 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
   }
 
   #slider .sliderCont .slides .text_lines h3 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #slider .sliderCont .slides .text_lines h2 {
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 0;
   }
 
@@ -1944,3 +1976,84 @@ Base Fonts 2 : Open Sans // less variable @baseFont2
 }
 
 /*----------------------------------------------------------------*/
+
+
+@media screen and (min-width:360px) and (max-width:768px) {
+  .g-prev p {
+    color: red;
+    font-size: 15px;
+    text-decoration: underline;
+    letter-spacing: -0.5px;
+    padding: 15px;
+  }
+
+  a.logo_a img {
+    width: 169px;
+    height: auto;
+  }
+
+  .searchSec-New {
+    padding: 15px;
+  }
+
+  .ct-mail p,
+  .ct-phone p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  ul.slides.nav li img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .slide-Text h5 {
+    font-size: 13px;
+    font-weight: 400;
+    color: #000000;
+    letter-spacing: 2px;
+  }
+
+  .swiper-Image img {
+    width: 100%;
+    height: 187px;
+    object-fit: cover;
+  }
+
+  div#abt-Img img {
+    width: 100%;
+    height: 161px;
+    object-fit: cover;
+  }
+
+  div#abt-Img-Text p {
+    font-size: 15px;
+    letter-spacing: 0;
+    padding: 15px 0 0 0;
+  }
+
+  .about-us {
+    background: url(../assets/about/about.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 286px;
+  }
+
+  section.over-prod {
+    padding: 41px 0 0 0;
+  }
+
+  div#foot-bel {
+    margin-bottom: -51px;
+  }
+
+  .light-box-item {
+    display: block;
+    justify-content: center;
+    gap: 7px;
+    padding: 0 37px;
+  }
+
+}
